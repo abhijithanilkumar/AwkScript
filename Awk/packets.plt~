@@ -1,0 +1,1 @@
+plot "./Results/Sent.txt" every ::4 with linespoints ls 1
