@@ -1,0 +1,536 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    173.194.126.70        192.168.1.100         TCP      66     https > 42257 [ACK] Seq=1 Ack=1 Win=590 Len=0 TSval=2923415363 TSecr=2344510
+      2 3.058412000    192.168.1.100         104.16.37.249         TCP      54     32854 > http [ACK] Seq=1 Ack=1 Win=562 Len=0
+      3 3.169176000    104.16.37.249         192.168.1.100         TCP      54     [TCP ACKed unseen segment] http > 32854 [ACK] Seq=1 Ack=2 Win=32 Len=0
+      4 3.706823000    fe80::fedd:55ff:fe0b:8ed5 ff02::1               ICMPv6   86     Router Advertisement from fc:dd:55:0b:8e:d5
+      5 7.493801000    192.168.1.100         192.168.1.1           DNS      77     Standard query 0x4cd2  A stackexchange.com
+      6 7.494141000    192.168.1.100         192.168.1.1           DNS      76     Standard query 0xd76c  A daisy.ubuntu.com
+      7 7.494175000    192.168.1.100         192.168.1.1           DNS      76     Standard query 0x0666  AAAA daisy.ubuntu.com
+      8 7.613333000    192.168.1.1           192.168.1.100         DNS      286    Standard query response 0xd76c  A 91.189.92.57 A 91.189.92.55
+      9 7.613590000    192.168.1.1           192.168.1.100         DNS      231    Standard query response 0x4cd2  A 104.16.117.182 A 104.16.115.182 A 104.16.119.182 A 104.16.118.182 A 104.16.116.182
+     10 7.679683000    192.168.1.1           192.168.1.100         DNS      137    Standard query response 0x0666 
+     11 8.038365000    192.168.1.100         216.58.196.110        TCP      66     51194 > http [ACK] Seq=1 Ack=1 Win=245 Len=0 TSval=2382279 TSecr=415622459
+     12 8.153013000    216.58.196.110        192.168.1.100         TCP      66     [TCP ACKed unseen segment] http > 51194 [ACK] Seq=1 Ack=2 Win=357 Len=0 TSval=415667567 TSecr=2347844
+     13 8.360261000    192.168.1.100         50.17.236.38          TCP      66     35020 > http [FIN, ACK] Seq=1 Ack=1 Win=229 Len=0 TSval=2382359 TSecr=347377526
+     14 8.360288000    192.168.1.100         50.17.236.38          TCP      66     35016 > http [FIN, ACK] Seq=1 Ack=1 Win=272 Len=0 TSval=2382359 TSecr=347392916
+     15 8.360304000    192.168.1.100         23.58.36.136          TCP      66     57547 > http [FIN, ACK] Seq=1 Ack=1 Win=363 Len=0 TSval=2382359 TSecr=890036539
+     16 8.360318000    192.168.1.100         203.190.124.12        TCP      54     41661 > http [FIN, ACK] Seq=1 Ack=1 Win=229 Len=0
+     17 8.360339000    192.168.1.100         68.232.44.121         TCP      66     33789 > https [FIN, ACK] Seq=1 Ack=1 Win=229 Len=0 TSval=2382359 TSecr=1154043961
+     18 8.360353000    192.168.1.100         104.16.37.249         TCP      54     [TCP Previous segment not captured] 32854 > http [FIN, ACK] Seq=2 Ack=1 Win=562 Len=0
+     19 8.360494000    192.168.1.100         192.168.1.1           DNS      77     Standard query 0x7e2b  A stackoverflow.com
+     20 8.360684000    192.168.1.100         192.168.1.1           DNS      79     Standard query 0x51fe  A ajax.googleapis.com
+     21 8.360931000    192.168.1.100         192.168.1.1           DNS      75     Standard query 0x00f3  A cdn.sstatic.net
+     22 8.361110000    192.168.1.100         192.168.1.1           DNS      81     Standard query 0xf08c  A clc.stackoverflow.com
+     23 8.361268000    192.168.1.100         192.168.1.1           DNS      77     Standard query 0x4e68  A engine.adzerk.net
+     24 8.361455000    192.168.1.100         192.168.1.1           DNS      80     Standard query 0x157e  A pixel.quantserve.com
+     25 8.496490000    192.168.1.100         192.168.1.1           DNS      76     Standard query 0xb8f4  A daisy.ubuntu.com
+     26 8.496548000    192.168.1.100         192.168.1.1           DNS      76     Standard query 0x7e0f  AAAA daisy.ubuntu.com
+     27 8.548490000    23.58.36.136          192.168.1.100         TCP      66     http > 57547 [ACK] Seq=1 Ack=2 Win=934 Len=0 TSval=890062273 TSecr=2382359
+     28 8.665027000    68.232.44.121         192.168.1.100         TCP      54     https > 33789 [RST] Seq=1 Win=0 Len=0
+     29 8.679979000    104.16.37.249         192.168.1.100         TCP      54     [TCP ACKed unseen segment] http > 32854 [ACK] Seq=1 Ack=3 Win=32 Len=0
+     30 8.699801000    50.17.236.38          192.168.1.100         TCP      66     http > 35016 [ACK] Seq=1 Ack=2 Win=77 Len=0 TSval=347398675 TSecr=2382359
+     31 8.708193000    fe80::fedd:55ff:fe0b:8ed5 ff02::1               ICMPv6   86     Router Advertisement from fc:dd:55:0b:8e:d5
+     32 8.750028000    192.168.1.1           192.168.1.100         DNS      291    Standard query response 0x7e2b  A 104.16.33.249 A 104.16.36.249 A 104.16.34.249 A 104.16.37.249 A 104.16.35.249
+     33 8.750651000    192.168.1.100         192.168.1.1           DNS      77     Standard query 0x3e14  A static.adzerk.net
+     34 8.750673000    192.168.1.100         104.16.33.249         TCP      74     39942 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382457 TSecr=0 WS=128
+     35 8.750736000    192.168.1.100         104.16.33.249         TCP      74     39943 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382457 TSecr=0 WS=128
+     36 8.750790000    192.168.1.100         104.16.33.249         TCP      74     39944 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382457 TSecr=0 WS=128
+     37 8.750839000    192.168.1.100         104.16.33.249         TCP      74     39945 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382457 TSecr=0 WS=128
+     38 8.816041000    192.168.1.1           192.168.1.100         DNS      265    Standard query response 0x51fe  CNAME googleapis.l.google.com A 216.58.220.42
+     39 8.816363000    192.168.1.100         192.168.1.1           DNS      82     Standard query 0xcf55  A tap.rubiconproject.com
+     40 8.816375000    192.168.1.100         216.58.220.42         TCP      74     33366 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382473 TSecr=0 WS=128
+     41 8.816394000    192.168.1.100         216.58.220.42         TCP      74     33367 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382473 TSecr=0 WS=128
+     42 8.816424000    192.168.1.100         216.58.220.42         TCP      74     33368 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382473 TSecr=0 WS=128
+     43 8.913376000    192.168.1.1           192.168.1.100         DNS      271    Standard query response 0x00f3  CNAME sstatic.net A 104.16.103.204 A 104.16.105.204 A 104.16.106.204 A 104.16.107.204 A 104.16.104.204
+     44 8.913695000    192.168.1.100         192.168.1.1           DNS      77     Standard query 0xf96a  A stackoverflow.com
+     45 8.913726000    192.168.1.100         104.16.103.204        TCP      74     46933 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382497 TSecr=0 WS=128
+     46 8.913767000    192.168.1.100         104.16.103.204        TCP      74     46934 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382497 TSecr=0 WS=128
+     47 8.913791000    192.168.1.100         104.16.103.204        TCP      74     46935 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382497 TSecr=0 WS=128
+     48 8.913810000    192.168.1.100         104.16.103.204        TCP      74     46936 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382497 TSecr=0 WS=128
+     49 8.913831000    192.168.1.100         104.16.103.204        TCP      74     46937 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382497 TSecr=0 WS=128
+     50 8.913853000    192.168.1.100         104.16.103.204        TCP      74     46938 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382497 TSecr=0 WS=128
+     51 8.939949000    192.168.1.1           192.168.1.100         DNS      231    Standard query response 0xf08c  A 198.252.206.17
+     52 8.940240000    192.168.1.100         192.168.1.1           DNS      85     Standard query 0x0abc  A careers.stackoverflow.com
+     53 8.940249000    192.168.1.100         198.252.206.17        TCP      74     35268 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382504 TSecr=0 WS=128
+     54 8.940265000    192.168.1.100         198.252.206.17        TCP      74     35269 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382504 TSecr=0 WS=128
+     55 8.940299000    192.168.1.100         198.252.206.17        TCP      74     35270 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382504 TSecr=0 WS=128
+     56 8.940320000    192.168.1.100         198.252.206.17        TCP      74     35271 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382504 TSecr=0 WS=128
+     57 8.955940000    192.168.1.1           192.168.1.100         DNS      364    Standard query response 0x4e68  CNAME engine3-774595980.us-east-1.elb.amazonaws.com A 54.235.110.156 A 107.21.109.65 A 54.243.189.102 A 23.23.170.52 A 50.17.236.38 A 54.225.83.233
+     58 8.956199000    192.168.1.100         192.168.1.1           DNS      84     Standard query 0x2cbd  A www.google-analytics.com
+     59 8.956208000    192.168.1.100         54.235.110.156        TCP      74     55220 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382508 TSecr=0 WS=128
+     60 8.956225000    192.168.1.100         54.235.110.156        TCP      74     55221 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382508 TSecr=0 WS=128
+     61 8.956256000    192.168.1.100         54.235.110.156        TCP      74     55222 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382508 TSecr=0 WS=128
+     62 8.956278000    192.168.1.100         54.235.110.156        TCP      74     55223 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382508 TSecr=0 WS=128
+     63 8.956303000    192.168.1.100         54.235.110.156        TCP      74     55224 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382508 TSecr=0 WS=128
+     64 8.956421000    192.168.1.1           192.168.1.100         DNS      543    Standard query response 0x157e  CNAME akamai-pixel.quantserve.com.akadns.net CNAME anycast-asia.quantserve.com.akadns.net A 203.190.124.26 A 203.190.124.18 A 203.190.124.12 A 203.190.124.30 A 203.190.124.17 A 203.190.124.15 A 203.190.124.13 A 203.190.124.24
+     65 8.956659000    192.168.1.100         192.168.1.1           DNS      76     Standard query 0x8718  A www.gravatar.com
+     66 8.956679000    192.168.1.100         203.190.124.26        TCP      74     48051 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382508 TSecr=0 WS=128
+     67 8.956716000    192.168.1.100         203.190.124.26        TCP      74     48052 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382508 TSecr=0 WS=128
+     68 8.956744000    192.168.1.100         203.190.124.26        TCP      74     48053 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382508 TSecr=0 WS=128
+     69 8.964973000    192.168.1.1           192.168.1.100         DNS      286    Standard query response 0xb8f4  A 91.189.92.57 A 91.189.92.55
+     70 9.002045000    192.168.1.1           192.168.1.100         DNS      137    Standard query response 0x7e0f 
+     71 9.028768000    192.168.1.1           192.168.1.100         DNS      334    Standard query response 0x3e14  CNAME static.adzerk.net.cdn.cloudflare.net A 104.16.12.8 A 104.16.13.8
+     72 9.028973000    192.168.1.100         104.16.12.8           TCP      74     51194 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382526 TSecr=0 WS=128
+     73 9.029005000    192.168.1.100         104.16.12.8           TCP      74     51195 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382526 TSecr=0 WS=128
+     74 9.029026000    192.168.1.100         104.16.12.8           TCP      74     51196 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382526 TSecr=0 WS=128
+     75 9.029045000    192.168.1.100         104.16.12.8           TCP      74     51197 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382526 TSecr=0 WS=128
+     76 9.029067000    192.168.1.100         104.16.12.8           TCP      74     51198 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382526 TSecr=0 WS=128
+     77 9.029086000    192.168.1.100         104.16.12.8           TCP      74     51199 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382526 TSecr=0 WS=128
+     78 9.053128000    104.16.33.249         192.168.1.100         TCP      66     http > 39942 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1360 SACK_PERM=1 WS=1024
+     79 9.053153000    192.168.1.100         104.16.33.249         TCP      54     39942 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0
+     80 9.053277000    192.168.1.100         104.16.33.249         HTTP     780    GET /questions/5114586/using-awk-to-count-no-of-records HTTP/1.1 
+     81 9.068639000    104.16.33.249         192.168.1.100         TCP      66     http > 39943 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1360 SACK_PERM=1 WS=1024
+     82 9.068665000    192.168.1.100         104.16.33.249         TCP      54     39943 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0
+     83 9.075246000    104.16.33.249         192.168.1.100         TCP      66     http > 39944 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1360 SACK_PERM=1 WS=1024
+     84 9.075267000    192.168.1.100         104.16.33.249         TCP      54     39944 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0
+     85 9.081968000    104.16.33.249         192.168.1.100         TCP      66     http > 39945 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1360 SACK_PERM=1 WS=1024
+     86 9.081985000    192.168.1.100         104.16.33.249         TCP      54     39945 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0
+     87 9.096618000    192.168.1.1           192.168.1.100         DNS      395    Standard query response 0xcf55  CNAME tap-1798223565.us-east-1.elb.amazonaws.com A 54.225.210.21 A 54.235.99.163 A 107.22.186.129 A 50.16.223.6 A 50.19.230.24 A 54.243.103.28 A 23.21.229.133 A 107.21.225.7
+     88 9.096826000    192.168.1.100         54.225.210.21         TCP      74     55268 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382543 TSecr=0 WS=128
+     89 9.096858000    192.168.1.100         54.225.210.21         TCP      74     55269 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382543 TSecr=0 WS=128
+     90 9.096878000    192.168.1.100         54.225.210.21         TCP      74     55270 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382543 TSecr=0 WS=128
+     91 9.135449000    216.58.220.42         192.168.1.100         TCP      74     http > 33366 [SYN, ACK] Seq=0 Ack=1 Win=42540 Len=0 MSS=1360 SACK_PERM=1 TSval=420550188 TSecr=2382473 WS=128
+     92 9.135513000    192.168.1.100         216.58.220.42         TCP      66     33366 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382553 TSecr=420550188
+     93 9.135614000    216.58.220.42         192.168.1.100         TCP      74     http > 33367 [SYN, ACK] Seq=0 Ack=1 Win=42540 Len=0 MSS=1360 SACK_PERM=1 TSval=420559640 TSecr=2382473 WS=128
+     94 9.135658000    192.168.1.100         216.58.220.42         TCP      66     33367 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382553 TSecr=420559640
+     95 9.135803000    216.58.220.42         192.168.1.100         TCP      74     http > 33368 [SYN, ACK] Seq=0 Ack=1 Win=42540 Len=0 MSS=1360 SACK_PERM=1 TSval=420553970 TSecr=2382473 WS=128
+     96 9.135833000    192.168.1.100         216.58.220.42         TCP      66     33368 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382553 TSecr=420553970
+     97 9.135993000    192.168.1.1           192.168.1.100         DNS      291    Standard query response 0xf96a  A 104.16.35.249 A 104.16.33.249 A 104.16.36.249 A 104.16.34.249 A 104.16.37.249
+     98 9.136187000    104.16.103.204        192.168.1.100         TCP      66     http > 46933 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1360 SACK_PERM=1 WS=1024
+     99 9.136215000    192.168.1.100         104.16.103.204        TCP      54     46933 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0
+    100 9.136385000    192.168.1.100         104.16.35.249         TCP      74     40779 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382553 TSecr=0 WS=128
+    101 9.160024000    104.16.103.204        192.168.1.100         TCP      66     http > 46934 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1360 SACK_PERM=1 WS=1024
+    102 9.160078000    192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0
+    103 9.178817000    104.16.103.204        192.168.1.100         TCP      66     http > 46936 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1360 SACK_PERM=1 WS=1024
+    104 9.178870000    192.168.1.100         104.16.103.204        TCP      54     46936 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0
+    105 9.178973000    104.16.103.204        192.168.1.100         TCP      66     http > 46935 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1360 SACK_PERM=1 WS=1024
+    106 9.178992000    192.168.1.100         104.16.103.204        TCP      54     46935 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0
+    107 9.179183000    104.16.103.204        192.168.1.100         TCP      66     http > 46937 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1360 SACK_PERM=1 WS=1024
+    108 9.179220000    192.168.1.100         104.16.103.204        TCP      54     46937 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0
+    109 9.179580000    104.16.103.204        192.168.1.100         TCP      66     http > 46938 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1360 SACK_PERM=1 WS=1024
+    110 9.179618000    192.168.1.100         104.16.103.204        TCP      54     46938 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0
+    111 9.249970000    192.168.1.1           192.168.1.100         DNS      235    Standard query response 0x0abc  A 198.252.206.17
+    112 9.368857000    192.168.1.1           192.168.1.100         DNS      280    Standard query response 0x2cbd  CNAME www-google-analytics.l.google.com A 216.58.196.110
+    113 9.369032000    192.168.1.100         216.58.196.110        TCP      74     51284 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382611 TSecr=0 WS=128
+    114 9.369056000    192.168.1.100         216.58.196.110        TCP      74     51285 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382611 TSecr=0 WS=128
+    115 9.369079000    192.168.1.100         216.58.196.110        TCP      74     51286 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382611 TSecr=0 WS=128
+    116 9.369208000    192.168.1.1           192.168.1.100         DNS      254    Standard query response 0x8718  CNAME cs91.wac.edgecastcdn.net A 68.232.44.121
+    117 9.369322000    192.168.1.100         68.232.44.121         TCP      74     33839 > https [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382611 TSecr=0 WS=128
+    118 9.369344000    192.168.1.100         68.232.44.121         TCP      74     33840 > https [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382611 TSecr=0 WS=128
+    119 9.369359000    192.168.1.100         68.232.44.121         TCP      74     33841 > https [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382611 TSecr=0 WS=128
+    120 9.369681000    203.190.124.26        192.168.1.100         TCP      66     http > 48051 [SYN, ACK] Seq=0 Ack=1 Win=14600 Len=0 MSS=1360 SACK_PERM=1 WS=128
+    121 9.369698000    192.168.1.100         203.190.124.26        TCP      54     48051 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0
+    122 9.382484000    104.16.12.8           192.168.1.100         TCP      66     http > 51194 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1360 SACK_PERM=1 WS=1024
+    123 9.382533000    192.168.1.100         104.16.12.8           TCP      54     51194 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0
+    124 9.382701000    203.190.124.26        192.168.1.100         TCP      66     http > 48053 [SYN, ACK] Seq=0 Ack=1 Win=14600 Len=0 MSS=1360 SACK_PERM=1 WS=128
+    125 9.382728000    192.168.1.100         203.190.124.26        TCP      54     48053 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0
+    126 9.382916000    203.190.124.26        192.168.1.100         TCP      66     http > 48052 [SYN, ACK] Seq=0 Ack=1 Win=14600 Len=0 MSS=1360 SACK_PERM=1 WS=128
+    127 9.382953000    192.168.1.100         203.190.124.26        TCP      54     48052 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0
+    128 9.383081000    104.16.12.8           192.168.1.100         TCP      66     http > 51195 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1360 SACK_PERM=1 WS=1024
+    129 9.383104000    192.168.1.100         104.16.12.8           TCP      54     51195 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0
+    130 9.383265000    104.16.12.8           192.168.1.100         TCP      66     http > 51196 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1360 SACK_PERM=1 WS=1024
+    131 9.383303000    192.168.1.100         104.16.12.8           TCP      54     51196 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0
+    132 9.388587000    104.16.12.8           192.168.1.100         TCP      66     http > 51197 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1360 SACK_PERM=1 WS=1024
+    133 9.388633000    192.168.1.100         104.16.12.8           TCP      54     51197 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0
+    134 9.403336000    216.58.220.42         192.168.1.100         TCP      74     [TCP Retransmission] http > 33366 [SYN, ACK] Seq=0 Ack=1 Win=42540 Len=0 MSS=1360 SACK_PERM=1 TSval=420550488 TSecr=2382473 WS=128
+    135 9.403364000    192.168.1.100         216.58.220.42         TCP      66     [TCP Dup ACK 92#1] 33366 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382620 TSecr=420550188
+    136 9.403516000    104.16.12.8           192.168.1.100         TCP      66     http > 51198 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1360 SACK_PERM=1 WS=1024
+    137 9.403556000    192.168.1.100         104.16.12.8           TCP      54     51198 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0
+    138 9.409840000    198.252.206.17        192.168.1.100         TCP      74     http > 35268 [SYN, ACK] Seq=0 Ack=1 Win=14480 Len=0 MSS=1360 SACK_PERM=1 TSval=1114444008 TSecr=2382504 WS=512
+    139 9.409894000    192.168.1.100         198.252.206.17        TCP      66     35268 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382621 TSecr=1114444008
+    140 9.423356000    216.58.220.42         192.168.1.100         TCP      74     [TCP Retransmission] http > 33367 [SYN, ACK] Seq=0 Ack=1 Win=42540 Len=0 MSS=1360 SACK_PERM=1 TSval=420559940 TSecr=2382473 WS=128
+    141 9.423383000    192.168.1.100         216.58.220.42         TCP      66     [TCP Dup ACK 94#1] 33367 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382625 TSecr=420559640
+    142 9.423486000    104.16.12.8           192.168.1.100         TCP      66     http > 51199 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1360 SACK_PERM=1 WS=1024
+    143 9.423516000    192.168.1.100         104.16.12.8           TCP      54     51199 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0
+    144 9.423679000    216.58.220.42         192.168.1.100         TCP      74     [TCP Retransmission] http > 33368 [SYN, ACK] Seq=0 Ack=1 Win=42540 Len=0 MSS=1360 SACK_PERM=1 TSval=420554270 TSecr=2382473 WS=128
+    145 9.423694000    192.168.1.100         216.58.220.42         TCP      66     [TCP Dup ACK 96#1] 33368 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382625 TSecr=420553970
+    146 9.423891000    198.252.206.17        192.168.1.100         TCP      74     http > 35271 [SYN, ACK] Seq=0 Ack=1 Win=14480 Len=0 MSS=1360 SACK_PERM=1 TSval=1114444020 TSecr=2382504 WS=512
+    147 9.423931000    192.168.1.100         198.252.206.17        TCP      66     35271 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382625 TSecr=1114444020
+    148 9.429919000    198.252.206.17        192.168.1.100         TCP      74     http > 35269 [SYN, ACK] Seq=0 Ack=1 Win=14480 Len=0 MSS=1360 SACK_PERM=1 TSval=1114444025 TSecr=2382504 WS=512
+    149 9.429964000    192.168.1.100         198.252.206.17        TCP      66     35269 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382626 TSecr=1114444025
+    150 9.430396000    198.252.206.17        192.168.1.100         TCP      74     http > 35270 [SYN, ACK] Seq=0 Ack=1 Win=14480 Len=0 MSS=1360 SACK_PERM=1 TSval=1114444025 TSecr=2382504 WS=512
+    151 9.430435000    192.168.1.100         198.252.206.17        TCP      66     35270 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382627 TSecr=1114444025
+    152 9.486560000    104.16.33.249         192.168.1.100         TCP      54     http > 39942 [ACK] Seq=1 Ack=727 Win=30720 Len=0
+    153 9.516558000    54.235.110.156        192.168.1.100         TCP      74     http > 55221 [SYN, ACK] Seq=0 Ack=1 Win=17898 Len=0 MSS=1360 SACK_PERM=1 TSval=353602297 TSecr=2382508 WS=256
+    154 9.516586000    192.168.1.100         54.235.110.156        TCP      66     55221 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382648 TSecr=353602297
+    155 9.523186000    54.235.110.156        192.168.1.100         TCP      74     http > 55220 [SYN, ACK] Seq=0 Ack=1 Win=17898 Len=0 MSS=1360 SACK_PERM=1 TSval=353602298 TSecr=2382508 WS=256
+    156 9.523234000    192.168.1.100         54.235.110.156        TCP      66     55220 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382650 TSecr=353602298
+    157 9.529845000    54.235.110.156        192.168.1.100         TCP      74     http > 55222 [SYN, ACK] Seq=0 Ack=1 Win=17898 Len=0 MSS=1360 SACK_PERM=1 TSval=353602300 TSecr=2382508 WS=256
+    158 9.529900000    192.168.1.100         54.235.110.156        TCP      66     55222 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382651 TSecr=353602300
+    159 9.536501000    54.235.110.156        192.168.1.100         TCP      74     http > 55223 [SYN, ACK] Seq=0 Ack=1 Win=17898 Len=0 MSS=1360 SACK_PERM=1 TSval=353602301 TSecr=2382508 WS=256
+    160 9.536546000    192.168.1.100         54.235.110.156        TCP      66     55223 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382653 TSecr=353602301
+    161 9.543214000    54.235.110.156        192.168.1.100         TCP      74     http > 55224 [SYN, ACK] Seq=0 Ack=1 Win=17898 Len=0 MSS=1360 SACK_PERM=1 TSval=353602303 TSecr=2382508 WS=256
+    162 9.543268000    192.168.1.100         54.235.110.156        TCP      66     55224 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382655 TSecr=353602303
+    163 9.596557000    104.16.35.249         192.168.1.100         TCP      66     http > 40779 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1360 SACK_PERM=1 WS=1024
+    164 9.596595000    192.168.1.100         104.16.35.249         TCP      54     40779 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0
+    165 9.644986000    216.58.196.110        192.168.1.100         TCP      74     http > 51284 [SYN, ACK] Seq=0 Ack=1 Win=42540 Len=0 MSS=1360 SACK_PERM=1 TSval=415665242 TSecr=2382611 WS=128
+    166 9.645037000    192.168.1.100         216.58.196.110        TCP      66     51284 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382680 TSecr=415665242
+    167 9.662233000    216.58.196.110        192.168.1.100         TCP      74     http > 51285 [SYN, ACK] Seq=0 Ack=1 Win=42540 Len=0 MSS=1360 SACK_PERM=1 TSval=415674793 TSecr=2382611 WS=128
+    168 9.662284000    192.168.1.100         216.58.196.110        TCP      66     51285 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382684 TSecr=415674793
+    169 9.678177000    216.58.196.110        192.168.1.100         TCP      74     http > 51286 [SYN, ACK] Seq=0 Ack=1 Win=42540 Len=0 MSS=1360 SACK_PERM=1 TSval=415672283 TSecr=2382611 WS=128
+    170 9.678224000    192.168.1.100         216.58.196.110        TCP      66     51286 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382688 TSecr=415672283
+    171 9.691485000    68.232.44.121         192.168.1.100         TCP      74     https > 33839 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1360 SACK_PERM=1 TSval=1154051220 TSecr=2382611 WS=512
+    172 9.691550000    192.168.1.100         68.232.44.121         TCP      66     33839 > https [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382692 TSecr=1154051220
+    173 9.691921000    192.168.1.100         68.232.44.121         TLSv1.2  583    Client Hello
+    174 9.726677000    68.232.44.121         192.168.1.100         TCP      74     https > 33840 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1360 SACK_PERM=1 TSval=1013606342 TSecr=2382611 WS=512
+    175 9.726739000    192.168.1.100         68.232.44.121         TCP      66     33840 > https [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382701 TSecr=1013606342
+    176 9.726864000    68.232.44.121         192.168.1.100         TCP      74     https > 33841 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1360 SACK_PERM=1 TSval=759370166 TSecr=2382611 WS=512
+    177 9.726899000    192.168.1.100         68.232.44.121         TCP      66     33841 > https [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382701 TSecr=759370166
+    178 9.726994000    192.168.1.100         68.232.44.121         TLSv1.2  583    Client Hello
+    179 9.727207000    192.168.1.100         68.232.44.121         TLSv1.2  583    Client Hello
+    180 9.749861000    54.225.210.21         192.168.1.100         TCP      74     http > 55268 [SYN, ACK] Seq=0 Ack=1 Win=14480 Len=0 MSS=1360 SACK_PERM=1 TSval=170309462 TSecr=2382543 WS=256
+    181 9.749912000    192.168.1.100         54.225.210.21         TCP      66     55268 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382706 TSecr=170309462
+    182 9.766560000    54.225.210.21         192.168.1.100         TCP      74     http > 55269 [SYN, ACK] Seq=0 Ack=1 Win=14480 Len=0 MSS=1360 SACK_PERM=1 TSval=170309467 TSecr=2382543 WS=256
+    183 9.766598000    192.168.1.100         54.225.210.21         TCP      66     55269 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382711 TSecr=170309467
+    184 9.792197000    104.16.33.249         192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    185 9.792230000    192.168.1.100         104.16.33.249         TCP      54     39942 > http [ACK] Seq=727 Ack=1361 Win=32128 Len=0
+    186 9.799895000    104.16.33.249         192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    187 9.799919000    192.168.1.100         104.16.33.249         TCP      54     39942 > http [ACK] Seq=727 Ack=2721 Win=35072 Len=0
+    188 9.807080000    104.16.33.249         192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    189 9.807111000    192.168.1.100         104.16.33.249         TCP      54     39942 > http [ACK] Seq=727 Ack=4081 Win=38016 Len=0
+    190 9.807408000    104.16.33.249         192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    191 9.807426000    192.168.1.100         104.16.33.249         TCP      54     39942 > http [ACK] Seq=727 Ack=5441 Win=40960 Len=0
+    192 9.837293000    104.16.33.249         192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    193 9.837314000    192.168.1.100         104.16.33.249         TCP      54     39942 > http [ACK] Seq=727 Ack=6801 Win=43904 Len=0
+    194 9.837701000    104.16.33.249         192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    195 9.837709000    192.168.1.100         104.16.33.249         TCP      54     39942 > http [ACK] Seq=727 Ack=8161 Win=46720 Len=0
+    196 9.837855000    104.16.33.249         192.168.1.100         TCP      166    [TCP segment of a reassembled PDU]
+    197 9.837863000    192.168.1.100         104.16.33.249         TCP      54     39942 > http [ACK] Seq=727 Ack=8273 Win=46720 Len=0
+    198 9.839058000    104.16.33.249         192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    199 9.839071000    192.168.1.100         104.16.33.249         TCP      54     39942 > http [ACK] Seq=727 Ack=9633 Win=49664 Len=0
+    200 9.843977000    104.16.33.249         192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    201 9.844001000    192.168.1.100         104.16.33.249         TCP      54     39942 > http [ACK] Seq=727 Ack=10993 Win=52608 Len=0
+    202 9.849896000    104.16.33.249         192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    203 9.849922000    192.168.1.100         104.16.33.249         TCP      54     39942 > http [ACK] Seq=727 Ack=12353 Win=55552 Len=0
+    204 9.850002000    54.225.210.21         192.168.1.100         TCP      74     http > 55270 [SYN, ACK] Seq=0 Ack=1 Win=14480 Len=0 MSS=1360 SACK_PERM=1 TSval=170309473 TSecr=2382543 WS=256
+    205 9.850022000    192.168.1.100         54.225.210.21         TCP      66     55270 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382731 TSecr=170309473
+    206 9.856693000    192.168.1.100         216.58.220.42         HTTP     592    GET /ajax/libs/jquery/1.7.1/jquery.min.js HTTP/1.1 
+    207 9.857239000    192.168.1.100         104.16.103.204        HTTP     611    GET /Js/stub.en.js?v=58883550bac2 HTTP/1.1 
+    208 9.857691000    192.168.1.100         104.16.103.204        HTTP     632    GET /stackoverflow/all.css?v=62ea4f992312 HTTP/1.1 
+    209 9.857837000    192.168.1.100         68.232.44.121         TLSv1.2  611    Application Data
+    210 9.889879000    68.232.44.121         192.168.1.100         TCP      66     https > 33839 [ACK] Seq=1 Ack=518 Win=145920 Len=0 TSval=1154051269 TSecr=2382692
+    211 9.905927000    68.232.44.121         192.168.1.100         TLSv1.2  1414   Server Hello
+    212 9.905942000    192.168.1.100         68.232.44.121         TCP      66     33839 > https [ACK] Seq=518 Ack=1349 Win=32128 Len=0 TSval=2382745 TSecr=1154051269
+    213 9.943785000    68.232.44.121         192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    214 9.943815000    192.168.1.100         68.232.44.121         TCP      66     33839 > https [ACK] Seq=518 Ack=2697 Win=35072 Len=0 TSval=2382755 TSecr=1154051269
+    215 9.950404000    68.232.44.121         192.168.1.100         TLSv1.2  1414   Certificate
+    216 9.950414000    192.168.1.100         68.232.44.121         TCP      66     33839 > https [ACK] Seq=518 Ack=4045 Win=37888 Len=0 TSval=2382757 TSecr=1154051269
+    217 9.956814000    68.232.44.121         192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    218 9.956823000    192.168.1.100         68.232.44.121         TCP      66     33839 > https [ACK] Seq=518 Ack=5393 Win=40832 Len=0 TSval=2382758 TSecr=1154051269
+    219 9.957006000    68.232.44.121         192.168.1.100         TLSv1.2  639    Certificate Status
+    220 9.957015000    192.168.1.100         68.232.44.121         TCP      66     33839 > https [ACK] Seq=518 Ack=5966 Win=43520 Len=0 TSval=2382758 TSecr=1154051269
+    221 9.957519000    192.168.1.100         68.232.44.121         TLSv1.2  192    Client Key Exchange, Change Cipher Spec, Hello Request, Hello Request
+    222 9.998496000    68.232.44.121         192.168.1.100         TCP      66     https > 33840 [ACK] Seq=1 Ack=518 Win=145920 Len=0 TSval=1013606406 TSecr=2382701
+    223 10.036187000   68.232.44.121         192.168.1.100         TLSv1.2  1414   Server Hello
+    224 10.036204000   192.168.1.100         68.232.44.121         TCP      66     33840 > https [ACK] Seq=518 Ack=1349 Win=32128 Len=0 TSval=2382778 TSecr=1013606407
+    225 10.050443000   68.232.44.121         192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    226 10.050462000   192.168.1.100         68.232.44.121         TCP      66     33840 > https [ACK] Seq=518 Ack=2697 Win=35072 Len=0 TSval=2382782 TSecr=1013606407
+    227 10.066959000   68.232.44.121         192.168.1.100         TLSv1.2  1414   Certificate
+    228 10.066976000   192.168.1.100         68.232.44.121         TCP      66     33840 > https [ACK] Seq=518 Ack=4045 Win=37888 Len=0 TSval=2382786 TSecr=1013606407
+    229 10.067306000   68.232.44.121         192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    230 10.067314000   192.168.1.100         68.232.44.121         TCP      66     33840 > https [ACK] Seq=518 Ack=5393 Win=40832 Len=0 TSval=2382786 TSecr=1013606407
+    231 10.067448000   68.232.44.121         192.168.1.100         TLSv1.2  639    Certificate Status
+    232 10.067456000   192.168.1.100         68.232.44.121         TCP      66     33840 > https [ACK] Seq=518 Ack=5966 Win=43520 Len=0 TSval=2382786 TSecr=1013606407
+    233 10.067646000   104.16.33.249         192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    234 10.067657000   192.168.1.100         104.16.33.249         TCP      54     39942 > http [ACK] Seq=727 Ack=13713 Win=58496 Len=0
+    235 10.067930000   192.168.1.100         68.232.44.121         TLSv1.2  192    Client Key Exchange, Change Cipher Spec, Hello Request, Hello Request
+    236 10.069017000   104.16.33.249         192.168.1.100         TCP      1022   [TCP segment of a reassembled PDU]
+    237 10.069026000   192.168.1.100         104.16.33.249         TCP      54     39942 > http [ACK] Seq=727 Ack=14681 Win=61184 Len=0
+    238 10.069143000   68.232.44.121         192.168.1.100         TCP      66     https > 33841 [ACK] Seq=1 Ack=518 Win=145920 Len=0 TSval=759370242 TSecr=2382701
+    239 10.069292000   216.58.220.42         192.168.1.100         TCP      66     http > 33366 [ACK] Seq=1 Ack=527 Win=43648 Len=0 TSval=420551101 TSecr=2382733
+    240 10.069428000   216.58.220.42         192.168.1.100         HTTP     201    HTTP/1.1 304 Not Modified 
+    241 10.069434000   192.168.1.100         216.58.220.42         TCP      66     33366 > http [ACK] Seq=527 Ack=136 Win=30336 Len=0 TSval=2382786 TSecr=420551102
+    242 10.069641000   68.232.44.121         192.168.1.100         TLSv1.2  1414   Server Hello
+    243 10.069646000   192.168.1.100         68.232.44.121         TCP      66     33841 > https [ACK] Seq=518 Ack=1349 Win=32128 Len=0 TSval=2382786 TSecr=759370242
+    244 10.069831000   68.232.44.121         192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    245 10.069834000   192.168.1.100         68.232.44.121         TCP      66     33841 > https [ACK] Seq=518 Ack=2697 Win=35072 Len=0 TSval=2382786 TSecr=759370242
+    246 10.070005000   68.232.44.121         192.168.1.100         TLSv1.2  1414   Certificate
+    247 10.070010000   192.168.1.100         68.232.44.121         TCP      66     33841 > https [ACK] Seq=518 Ack=4045 Win=37888 Len=0 TSval=2382786 TSecr=759370242
+    248 10.070196000   68.232.44.121         192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    249 10.070203000   192.168.1.100         68.232.44.121         TCP      66     33841 > https [ACK] Seq=518 Ack=5393 Win=40832 Len=0 TSval=2382786 TSecr=759370242
+    250 10.070366000   68.232.44.121         192.168.1.100         TLSv1.2  639    Certificate Status
+    251 10.070372000   192.168.1.100         68.232.44.121         TCP      66     33841 > https [ACK] Seq=518 Ack=5966 Win=43520 Len=0 TSval=2382787 TSecr=759370242
+    252 10.071023000   192.168.1.100         68.232.44.121         TLSv1.2  192    Client Key Exchange, Change Cipher Spec, Hello Request, Hello Request
+    253 10.071382000   104.16.33.249         192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    254 10.071386000   192.168.1.100         104.16.33.249         TCP      54     39942 > http [ACK] Seq=727 Ack=16041 Win=64128 Len=0
+    255 10.071830000   104.16.33.249         192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    256 10.071840000   192.168.1.100         104.16.33.249         TCP      54     39942 > http [ACK] Seq=727 Ack=17401 Win=67072 Len=0
+    257 10.095841000   104.16.33.249         192.168.1.100         HTTP     870    HTTP/1.1 200 OK  (text/html)
+    258 10.095858000   192.168.1.100         104.16.33.249         TCP      54     39942 > http [ACK] Seq=727 Ack=18217 Win=69760 Len=0
+    259 10.096456000   104.16.103.204        192.168.1.100         TCP      54     http > 46933 [ACK] Seq=1 Ack=558 Win=30720 Len=0
+    260 10.096904000   104.16.103.204        192.168.1.100         HTTP     397    HTTP/1.1 304 Not Modified 
+    261 10.096913000   192.168.1.100         104.16.103.204        TCP      54     46933 > http [ACK] Seq=558 Ack=344 Win=30336 Len=0
+    262 10.097068000   104.16.103.204        192.168.1.100         TCP      54     http > 46934 [ACK] Seq=1 Ack=579 Win=30720 Len=0
+    263 10.102397000   104.16.103.204        192.168.1.100         HTTP     397    HTTP/1.1 304 Not Modified 
+    264 10.102411000   192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=579 Ack=344 Win=30336 Len=0
+    265 10.105484000   192.168.1.100         68.232.44.121         TLSv1.2  615    Application Data
+    266 10.105950000   192.168.1.100         68.232.44.121         TLSv1.2  611    Application Data
+    267 10.138767000   192.168.1.100         104.16.103.204        HTTP     631    GET /img/share-sprite-new.svg?v=d09c08f3cb07 HTTP/1.1 
+    268 10.139135000   192.168.1.100         104.16.103.204        HTTP     636    GET /stackoverflow/img/sprites.svg?v=a7723f5f7e59 HTTP/1.1 
+    269 10.139293000   192.168.1.100         104.16.103.204        HTTP     625    GET /Img/mini-hero-bg.png?v=7f269bbbdb22 HTTP/1.1 
+    270 10.144522000   192.168.1.100         192.168.1.1           DNS      82     Standard query 0x78a7  A blog.stackoverflow.com
+    271 10.144560000   192.168.1.100         192.168.1.1           DNS      82     Standard query 0xe6a0  A chat.stackoverflow.com
+    272 10.144618000   192.168.1.100         192.168.1.1           DNS      82     Standard query 0xe885  A meta.stackoverflow.com
+    273 10.151044000   192.168.1.100         104.16.103.204        HTTP     649    GET /img/favicons-sprite16.png?v=394854deabead6f8831e759046270c2b HTTP/1.1 
+    274 10.151255000   192.168.1.100         104.16.12.8           HTTP     605    GET /ados.js HTTP/1.1 
+    275 10.151282000   192.168.1.100         216.58.196.110        HTTP     516    [TCP Previous segment not captured] GET /analytics.js HTTP/1.1 
+    276 10.151459000   192.168.1.100         192.168.1.1           DNS      79     Standard query 0x085c  A edge.quantserve.com
+    277 10.222171000   68.232.44.121         192.168.1.100         TLSv1.2  552    Application Data
+    278 10.222193000   192.168.1.100         68.232.44.121         TCP      66     33788 > https [ACK] Seq=546 Ack=487 Win=424 Len=0 TSval=2382824 TSecr=1053614264
+    279 10.222343000   68.232.44.121         192.168.1.100         TLSv1.2  308    New Session Ticket, Change Cipher Spec, Encrypted Handshake Message
+    280 10.222521000   68.232.44.121         192.168.1.100         TLSv1.2  308    New Session Ticket, Change Cipher Spec, Encrypted Handshake Message
+    281 10.224001000   192.168.1.100         103.18.67.137         HTTP     576    GET /beacon.js HTTP/1.1 
+    282 10.247440000   68.232.44.121         192.168.1.100         TLSv1.2  308    New Session Ticket, Change Cipher Spec, Encrypted Handshake Message
+    283 10.262339000   192.168.1.100         68.232.44.121         TCP      66     33839 > https [ACK] Seq=644 Ack=6208 Win=46208 Len=0 TSval=2382835 TSecr=1154051340
+    284 10.262351000   192.168.1.100         68.232.44.121         TCP      66     33840 > https [ACK] Seq=644 Ack=6208 Win=46208 Len=0 TSval=2382835 TSecr=1013606464
+    285 10.286348000   192.168.1.100         68.232.44.121         TCP      66     33841 > https [ACK] Seq=644 Ack=6208 Win=46208 Len=0 TSval=2382841 TSecr=759370297
+    286 10.302804000   68.232.44.121         192.168.1.100         TLSv1.2  552    Application Data
+    287 10.302849000   192.168.1.100         68.232.44.121         TCP      66     33787 > https [ACK] Seq=550 Ack=487 Win=424 Len=0 TSval=2382845 TSecr=1043914040
+    288 10.303159000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    289 10.307834000   192.168.1.100         104.16.103.204        HTTP     614    GET /Js/full-anon.en.js?v=056b52044d08 HTTP/1.1 
+    290 10.324169000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    291 10.324207000   192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=1156 Ack=3064 Win=36224 Len=0
+    292 10.324534000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    293 10.339140000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    294 10.339161000   192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=1156 Ack=5784 Win=41984 Len=0
+    295 10.377353000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    296 10.378139000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    297 10.378153000   192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=1156 Ack=8504 Win=47872 Len=0
+    298 10.378358000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    299 10.378682000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    300 10.378700000   192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=1156 Ack=11224 Win=53632 Len=0
+    301 10.378861000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    302 10.404129000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    303 10.404144000   192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=1156 Ack=13944 Win=59520 Len=0
+    304 10.421572000   68.232.44.121         192.168.1.100         TLSv1.2  549    Application Data
+    305 10.421594000   192.168.1.100         68.232.44.121         TCP      66     33786 > https [ACK] Seq=546 Ack=484 Win=403 Len=0 TSval=2382874 TSecr=1043914049
+    306 10.421810000   192.168.1.1           192.168.1.100         DNS      296    Standard query response 0x78a7  A 104.16.37.249 A 104.16.34.249 A 104.16.36.249 A 104.16.35.249 A 104.16.33.249
+    307 10.422034000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    308 10.422048000   192.168.1.100         104.16.103.204        TCP      54     46933 > http [ACK] Seq=1140 Ack=1704 Win=33280 Len=0
+    309 10.422250000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    310 10.422263000   192.168.1.100         104.16.103.204        TCP      54     46933 > http [ACK] Seq=1140 Ack=3064 Win=36224 Len=0
+    311 10.422288000   192.168.1.100         192.168.1.1           DNS      83     Standard query 0xf6c7  A apple.stackexchange.com
+    312 10.422383000   104.16.103.204        192.168.1.100         HTTP/XML 743    HTTP/1.1 200 OK 
+    313 10.422390000   192.168.1.100         104.16.103.204        TCP      54     46933 > http [ACK] Seq=1140 Ack=3753 Win=38912 Len=0
+    314 10.422532000   104.16.103.204        192.168.1.100         TCP      54     http > 46936 [ACK] Seq=1 Ack=572 Win=30720 Len=0
+    315 10.422771000   104.16.103.204        192.168.1.100         HTTP     598    HTTP/1.1 200 OK  (PNG)
+    316 10.422776000   192.168.1.100         104.16.103.204        TCP      54     46936 > http [ACK] Seq=572 Ack=545 Win=30336 Len=0
+    317 10.422941000   192.168.1.1           192.168.1.100         DNS      205    Standard query response 0xe6a0  CNAME chat.stackexchange.com A 198.252.206.29
+    318 10.423138000   192.168.1.1           192.168.1.100         DNS      232    Standard query response 0xe885  A 198.252.206.16
+    319 10.423187000   192.168.1.100         192.168.1.1           DNS      73     Standard query 0x8590  A askubuntu.com
+    320 10.423269000   192.168.1.100         192.168.1.1           DNS      86     Standard query 0x05a8  A codegolf.stackexchange.com
+    321 10.423276000   104.16.103.204        192.168.1.100         TCP      54     http > 46935 [ACK] Seq=1 Ack=596 Win=30720 Len=0
+    322 10.423422000   104.16.103.204        192.168.1.100         HTTP     396    HTTP/1.1 304 Not Modified 
+    323 10.423430000   192.168.1.100         104.16.103.204        TCP      54     46935 > http [ACK] Seq=596 Ack=343 Win=30336 Len=0
+    324 10.423643000   192.168.1.1           192.168.1.100         DNS      548    Standard query response 0x085c  CNAME akamai-edge.quantserve.com.akadns.net CNAME edge.quantserve.com.edgesuite.net CNAME a1811.g.akamai.net A 103.18.67.138 A 103.18.67.144
+    325 10.423771000   216.58.196.110        192.168.1.100         TCP      66     [TCP ACKed unseen segment] http > 51194 [ACK] Seq=1 Ack=452 Win=370 Len=0 TSval=415669806 TSecr=2382807
+    326 10.423882000   192.168.1.100         103.18.67.138         TCP      74     57087 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2382875 TSecr=0 WS=128
+    327 10.423920000   216.58.196.110        192.168.1.100         HTTP     200    HTTP/1.1 304 Not Modified 
+    328 10.423926000   192.168.1.100         216.58.196.110        TCP      66     51194 > http [ACK] Seq=452 Ack=135 Win=254 Len=0 TSval=2382875 TSecr=415669807
+    329 10.443792000   103.18.67.137         192.168.1.100         HTTP     291    HTTP/1.1 304 Not Modified 
+    330 10.443824000   192.168.1.100         103.18.67.137         TCP      66     33978 > http [ACK] Seq=511 Ack=226 Win=245 Len=0 TSval=2382880 TSecr=2891629327
+    331 10.444364000   104.16.12.8           192.168.1.100         TCP      54     http > 51194 [ACK] Seq=1 Ack=552 Win=30720 Len=0
+    332 10.444943000   104.16.12.8           192.168.1.100         HTTP     754    HTTP/1.1 304 Not Modified 
+    333 10.444958000   192.168.1.100         104.16.12.8           TCP      54     51194 > http [ACK] Seq=552 Ack=701 Win=30720 Len=0
+    334 10.457214000   192.168.1.100         216.58.196.110        HTTP     906    GET /collect?v=1&_v=j40&a=2146435051&t=pageview&_s=1&dl=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F5114586%2Fusing-awk-to-count-no-of-records&dr=https%3A%2F%2Fwww.google.co.in%2F&ul=en-us&de=UTF-8&dt=linux%20-%20using%20awk%20to%20count%20no%20of%20records%20-%20Stack%20Overflow&sd=24-bit&sr=1920x1080&vp=1840x971&je=1&fl=19.0%20r0&_u=QACAAAABI~&jid=&cid=1939320372.1445749137&tid=UA-5620270-1&cd2=%7Clinux%7Cshell%7C&z=843805111 HTTP/1.1 
+    335 10.470292000   192.168.1.100         103.18.67.137         HTTP     802    GET /b?c1=2&c2=17440561&ns__t=1447698612407&ns_c=UTF-8&c8=linux%20-%20using%20awk%20to%20count%20no%20of%20records%20-%20Stack%20Overflow&c7=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F5114586%2Fusing-awk-to-count-no-of-records&c9=https%3A%2F%2Fwww.google.co.in%2F HTTP/1.1 
+    336 10.472015000   192.168.1.100         54.235.110.156        HTTP     952    GET /ados?t=1447698612410&request={%22Placements%22:[{%22A%22:22,%22S%22:8277,%22D%22:%22adzerk633426794%22,%22AT%22:4,%22Z%22:43},{%22A%22:22,%22S%22:8277,%22D%22:%22adzerk415779564%22,%22AT%22:4,%22Z%22:44},{%22A%22:22,%22S%22:8277,%22D%22:%22adzerk818487312%22,%22ATA%22:[17,2221],%22Z%22:45}],%22Keywords%22:%22linux%2Cshell%22,%22Referrer%22:%22https%3A%2F%2Fwww.google.co.in%2F%22,%22IsAsync%22:true} HTTP/1.1 
+    337 10.486558000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    338 10.486918000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    339 10.486931000   192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=1156 Ack=16664 Win=65408 Len=0
+    340 10.487251000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    341 10.500640000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    342 10.500654000   192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=1156 Ack=19384 Win=71168 Len=0
+    343 10.501727000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    344 10.515938000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    345 10.515957000   192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=1156 Ack=22104 Win=77056 Len=0
+    346 10.516100000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    347 10.529671000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    348 10.529687000   192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=1156 Ack=24824 Win=82944 Len=0
+    349 10.529988000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    350 10.563356000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    351 10.563370000   192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=1156 Ack=27544 Win=88704 Len=0
+    352 10.607274000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    353 10.607460000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    354 10.607485000   192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=1156 Ack=30264 Win=94592 Len=0
+    355 10.608274000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    356 10.613428000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    357 10.613456000   192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=1156 Ack=32984 Win=100352 Len=0
+    358 10.652946000   192.168.1.100         192.168.1.1           DNS      79     Standard query 0xb2ce  A edge.quantserve.com
+    359 10.666176000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    360 10.666358000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    361 10.666387000   192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=1156 Ack=35704 Win=106240 Len=0
+    362 10.666562000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    363 10.666784000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    364 10.666810000   192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=1156 Ack=38424 Win=112128 Len=0
+    365 10.667109000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    366 10.667292000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    367 10.667315000   192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=1156 Ack=41144 Win=117888 Len=0
+    368 10.667411000   104.16.103.204        192.168.1.100         TCP      54     http > 46937 [ACK] Seq=1 Ack=561 Win=30720 Len=0
+    369 10.667575000   104.16.103.204        192.168.1.100         HTTP     397    HTTP/1.1 304 Not Modified 
+    370 10.667588000   192.168.1.100         104.16.103.204        TCP      54     46937 > http [ACK] Seq=561 Ack=344 Win=30336 Len=0
+    371 10.668579000   192.168.1.1           192.168.1.100         DNS      237    Standard query response 0xf6c7  A 104.16.116.182 A 104.16.117.182 A 104.16.119.182 A 104.16.115.182 A 104.16.118.182
+    372 10.668810000   192.168.1.1           192.168.1.100         DNS      205    Standard query response 0x8590  A 104.16.110.188 A 104.16.109.188 A 104.16.113.188 A 104.16.112.188 A 104.16.111.188
+    373 10.668952000   103.18.67.138         192.168.1.100         TCP      74     http > 57087 [SYN, ACK] Seq=0 Ack=1 Win=14480 Len=0 MSS=1360 SACK_PERM=1 TSval=2618529394 TSecr=2382875 WS=32
+    374 10.668987000   192.168.1.100         103.18.67.138         TCP      66     57087 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2382936 TSecr=2618529394
+    375 10.669035000   192.168.1.100         192.168.1.1           DNS      82     Standard query 0xaa33  A data.stackexchange.com
+    376 10.669347000   216.58.196.110        192.168.1.100         HTTP     452    HTTP/1.1 200 OK  (GIF89a) (GIF89a) (image/gif)
+    377 10.670453000   192.168.1.100         192.168.1.1           DNS      89     Standard query 0x340c  A electronics.stackexchange.com
+    378 10.671989000   192.168.1.100         103.18.67.138         HTTP     636    GET /quant.js HTTP/1.1 
+    379 10.690049000   192.168.1.100         104.16.103.204        HTTP     622    GET /Js/snippet-javascript.en.js?v=a39adff9cc0c HTTP/1.1 
+    380 10.690240000   192.168.1.100         104.16.103.204        HTTP     622    GET /Js/post-validation.en.js?v=d542812db6a5 HTTP/1.1 
+    381 10.699413000   192.168.1.100         104.16.103.204        HTTP     617    GET /Js/prettify-full.en.js?v=556117b25667 HTTP/1.1 
+    382 10.700952000   192.168.1.100         104.16.103.204        HTTP     622    GET /Js/external-editor.en.js?v=d8496f6c05bb HTTP/1.1 
+    383 10.706324000   192.168.1.100         216.58.196.110        TCP      66     51194 > http [ACK] Seq=1292 Ack=521 Win=262 Len=0 TSval=2382946 TSecr=415669966
+    384 10.717710000   192.168.1.100         104.16.33.249         HTTP     701    GET /posts/5114586/ivc/9811?_=1447698612662 HTTP/1.1 
+    385 10.717762000   192.168.1.100         104.16.103.204        HTTP     636    GET /img/openid/new-login-sprite.png?v=79224c9ea1cb HTTP/1.1 
+    386 10.774070000   192.168.1.1           192.168.1.100         DNS      240    Standard query response 0x05a8  A 104.16.117.182 A 104.16.116.182 A 104.16.118.182 A 104.16.115.182 A 104.16.119.182
+    387 10.774391000   192.168.1.100         192.168.1.1           DNS      85     Standard query 0x93a8  A english.stackexchange.com
+    388 10.777295000   103.18.67.137         192.168.1.100         HTTP     314    HTTP/1.1 204 No Content 
+    389 10.777624000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    390 10.780165000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    391 10.780177000   192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=1156 Ack=43864 Win=123776 Len=0
+    392 10.780376000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    393 10.814331000   192.168.1.100         103.18.67.137         TCP      66     33978 > http [ACK] Seq=1247 Ack=474 Win=254 Len=0 TSval=2382973 TSecr=2891629486
+    394 10.818348000   192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=1156 Ack=45224 Win=126720 Len=0
+    395 10.923719000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    396 10.923756000   192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=1156 Ack=46584 Win=129664 Len=0
+    397 10.924865000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    398 10.924897000   192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=1156 Ack=47944 Win=132480 Len=0
+    399 10.925059000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    400 10.925091000   192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=1156 Ack=49304 Win=135424 Len=0
+    401 10.925255000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    402 10.925278000   192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=1156 Ack=50664 Win=138368 Len=0
+    403 10.925437000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    404 10.925462000   192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=1156 Ack=52024 Win=141312 Len=0
+    405 10.925622000   104.16.103.204        192.168.1.100         HTTP/XML 1342   HTTP/1.1 200 OK 
+    406 10.925645000   192.168.1.100         104.16.103.204        TCP      54     46934 > http [ACK] Seq=1156 Ack=53312 Win=144000 Len=0
+    407 10.925836000   192.168.1.1           192.168.1.100         DNS      548    Standard query response 0xb2ce  CNAME akamai-edge.quantserve.com.akadns.net CNAME edge.quantserve.com.edgesuite.net CNAME a1811.g.akamai.net A 103.18.67.144 A 103.18.67.138
+    408 10.925969000   103.18.67.138         192.168.1.100         TCP      66     http > 57087 [ACK] Seq=1 Ack=571 Win=15648 Len=0 TSval=2618529678 TSecr=2382937
+    409 10.926135000   103.18.67.138         192.168.1.100         HTTP     321    HTTP/1.1 304 Not Modified 
+    410 10.926148000   192.168.1.100         103.18.67.138         TCP      66     57087 > http [ACK] Seq=571 Ack=256 Win=30336 Len=0 TSval=2383000 TSecr=2618529678
+    411 10.926773000   104.16.103.204        192.168.1.100         HTTP     396    HTTP/1.1 304 Not Modified 
+    412 10.926899000   192.168.1.100         103.18.67.144         TCP      74     52681 > http [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2383001 TSecr=0 WS=128
+    413 10.926956000   104.16.103.204        192.168.1.100         HTTP     397    HTTP/1.1 304 Not Modified 
+    414 10.926986000   192.168.1.100         104.16.103.204        TCP      54     46935 > http [ACK] Seq=1164 Ack=686 Win=31360 Len=0
+    415 10.927111000   54.235.110.156        192.168.1.100         TCP      66     http > 55221 [ACK] Seq=1 Ack=887 Win=19712 Len=0 TSval=353602640 TSecr=2382887
+    416 10.927264000   104.16.103.204        192.168.1.100         HTTP     396    HTTP/1.1 304 Not Modified 
+    417 10.927293000   192.168.1.100         104.16.103.204        TCP      54     46936 > http [ACK] Seq=1135 Ack=887 Win=31488 Len=0
+    418 10.948982000   103.18.67.137         192.168.1.100         HTTP     314    [TCP Retransmission] HTTP/1.1 204 No Content 
+    419 10.948998000   192.168.1.100         103.18.67.137         TCP      78     [TCP Dup ACK 393#1] 33978 > http [ACK] Seq=1247 Ack=474 Win=254 Len=0 TSval=2383006 TSecr=2891629855 SLE=226 SRE=474
+    420 10.966323000   192.168.1.100         104.16.103.204        TCP      54     46937 > http [ACK] Seq=1129 Ack=686 Win=31360 Len=0
+    421 10.969573000   192.168.1.100         203.190.124.26        HTTP     1286   GET /pixel;r=192270240;a=p-c1rF4kxgLUzNc;fpan=0;fpa=P0-455105194-1445749136616;ns=0;ce=1;cm=;je=1;sr=1920x1080x24;enc=n;dst=0;et=1447698612908;tzo=-330;ref=https%3A%2F%2Fwww.google.co.in%2F;url=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F5114586%2Fusing-awk-to-count-no-of-records;ogl=type.website%2Cimage.http%3A%2F%2Fcdn%252Esstatic%252Enet%2Fstackoverflow%2Fimg%2Fapple-touch-icon%402%252Epng%3Fv%3D73d79a89bded%26a%2Ctitle.using%20awk%20to%20count%20no%20of%20records%2Cdescription.I%20want%20to%20count%20all%20the%20records%20in%20a%20table%20through%20awk%20but%20NR%20prints%20record%20nos%20%2Curl.http%3A%2F%2Fstackoverflow%252Ecom%2Fquestions%2F5114586%2Fusing-awk-to-count-no-of-records HTTP/1.1 
+    422 10.989101000   104.16.103.204        192.168.1.100         HTTP     397    HTTP/1.1 304 Not Modified 
+    423 10.989126000   192.168.1.100         104.16.103.204        TCP      54     46933 > http [ACK] Seq=1708 Ack=4096 Win=41600 Len=0
+    424 11.002279000   54.235.110.156        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    425 11.002297000   192.168.1.100         54.235.110.156        TCP      66     55221 > http [ACK] Seq=887 Ack=1349 Win=32128 Len=0 TSval=2383019 TSecr=353602661
+    426 11.010163000   192.168.1.100         104.16.103.204        HTTP     640    GET /stackoverflow/img/wmd-buttons.svg?v=eeae5e3efd60 HTTP/1.1 
+    427 11.023481000   54.235.110.156        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    428 11.023505000   192.168.1.100         54.235.110.156        TCP      66     55221 > http [ACK] Seq=887 Ack=2697 Win=35072 Len=0 TSval=2383025 TSecr=353602661
+    429 11.023639000   54.235.110.156        192.168.1.100         HTTP     280    HTTP/1.1 200 OK  (application/javascript)
+    430 11.023657000   192.168.1.100         54.235.110.156        TCP      66     55221 > http [ACK] Seq=887 Ack=2911 Win=37760 Len=0 TSval=2383025 TSecr=353602661
+    431 11.023884000   192.168.1.1           192.168.1.100         DNS      172    Standard query response 0xaa33  A 192.111.0.23
+    432 11.025039000   192.168.1.100         192.168.1.1           DNS      85     Standard query 0x0b3f  A gamedev.stackexchange.com
+    433 11.036662000   192.168.1.1           192.168.1.100         DNS      243    Standard query response 0x340c  A 104.16.118.182 A 104.16.119.182 A 104.16.116.182 A 104.16.115.182 A 104.16.117.182
+    434 11.036999000   192.168.1.100         192.168.1.1           DNS      84     Standard query 0xd686  A gaming.stackexchange.com
+    435 11.091746000   104.16.33.249         192.168.1.100         TCP      54     http > 39942 [ACK] Seq=18217 Ack=1374 Win=32768 Len=0
+    436 11.169296000   192.168.1.100         198.252.206.17        HTTP     681    GET /j/p.js?d=hireme&tags=linux%3Bshell&lw=1000&bw=1855 HTTP/1.1 
+    437 11.195357000   104.16.103.204        192.168.1.100         TCP      54     http > 46938 [ACK] Seq=1 Ack=583 Win=30720 Len=0
+    438 11.212166000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    439 11.212203000   192.168.1.100         104.16.103.204        TCP      54     46938 > http [ACK] Seq=583 Ack=1361 Win=32128 Len=0
+    440 11.269588000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    441 11.269608000   192.168.1.100         104.16.103.204        TCP      54     46938 > http [ACK] Seq=583 Ack=2721 Win=35072 Len=0
+    442 11.310624000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    443 11.310644000   192.168.1.100         104.16.103.204        TCP      54     46938 > http [ACK] Seq=583 Ack=4081 Win=38016 Len=0
+    444 11.310859000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    445 11.310870000   192.168.1.100         104.16.103.204        TCP      54     46938 > http [ACK] Seq=583 Ack=5441 Win=40960 Len=0
+    446 11.311090000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    447 11.311099000   192.168.1.100         104.16.103.204        TCP      54     46938 > http [ACK] Seq=583 Ack=6801 Win=43904 Len=0
+    448 11.311273000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    449 11.311282000   192.168.1.100         104.16.103.204        TCP      54     46938 > http [ACK] Seq=583 Ack=8161 Win=46720 Len=0
+    450 11.362325000   192.168.1.100         203.190.124.12        TCP      54     [TCP Retransmission] 41661 > http [FIN, ACK] Seq=1 Ack=1 Win=229 Len=0
+    451 11.458703000   104.16.103.204        192.168.1.100         HTTP     1392   HTTP/1.1 200 OK  (PNG)
+    452 11.458744000   192.168.1.100         104.16.103.204        TCP      54     46938 > http [ACK] Seq=583 Ack=9499 Win=49536 Len=0
+    453 11.458835000   103.18.67.144         192.168.1.100         TCP      74     http > 52681 [SYN, ACK] Seq=0 Ack=1 Win=14480 Len=0 MSS=1360 SACK_PERM=1 TSval=1590285188 TSecr=2383001 WS=32
+    454 11.458874000   192.168.1.100         103.18.67.144         TCP      66     52681 > http [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2383134 TSecr=1590285188
+    455 11.458995000   104.16.33.249         192.168.1.100         HTTP     305    HTTP/1.1 204 No Content 
+    456 11.459016000   192.168.1.100         104.16.33.249         TCP      54     39942 > http [ACK] Seq=1374 Ack=18468 Win=72448 Len=0
+    457 11.470003000   192.168.1.1           192.168.1.100         DNS      239    Standard query response 0x93a8  A 104.16.119.182 A 104.16.117.182 A 104.16.118.182 A 104.16.115.182 A 104.16.116.182
+    458 11.470667000   192.168.1.100         192.168.1.1           DNS      89     Standard query 0xb629  A mathematica.stackexchange.com
+    459 11.566403000   192.168.1.100         104.16.103.204        HTTP     640    [TCP Retransmission] GET /stackoverflow/img/wmd-buttons.svg?v=eeae5e3efd60 HTTP/1.1 
+    460 11.673508000   104.16.103.204        192.168.1.100         HTTP     397    [TCP Retransmission] HTTP/1.1 304 Not Modified 
+    461 11.673544000   192.168.1.100         104.16.103.204        TCP      66     [TCP Dup ACK 459#1] 46933 > http [ACK] Seq=2294 Ack=4096 Win=41600 Len=0 SLE=3753 SRE=4096
+    462 11.783505000   203.190.124.26        192.168.1.100         HTTP     341    HTTP/1.1 200 OK  (GIF89a) (GIF89a) (image/gif)
+    463 11.784181000   192.168.1.100         203.190.124.26        TCP      54     48051 > http [FIN, ACK] Seq=1233 Ack=289 Win=30336 Len=0
+    464 11.891837000   104.16.33.249         192.168.1.100         HTTP     305    [TCP Retransmission] HTTP/1.1 204 No Content 
+    465 11.891853000   192.168.1.100         104.16.33.249         TCP      66     [TCP Dup ACK 456#1] 39942 > http [ACK] Seq=1374 Ack=18468 Win=72448 Len=0 SLE=18217 SRE=18468
+    466 11.923817000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    467 11.923844000   192.168.1.100         104.16.103.204        TCP      54     46933 > http [ACK] Seq=2294 Ack=5456 Win=44544 Len=0
+    468 11.937154000   104.16.103.204        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    469 11.937167000   192.168.1.100         104.16.103.204        TCP      54     46933 > http [ACK] Seq=2294 Ack=6816 Win=47488 Len=0
+    470 11.938112000   104.16.103.204        192.168.1.100         HTTP/XML 1013   HTTP/1.1 200 OK 
+    471 11.938121000   192.168.1.100         104.16.103.204        TCP      54     46933 > http [ACK] Seq=2294 Ack=7775 Win=50176 Len=0
+    472 11.943333000   192.168.1.1           192.168.1.100         DNS      239    Standard query response 0x0b3f  A 104.16.115.182 A 104.16.117.182 A 104.16.116.182 A 104.16.119.182 A 104.16.118.182
+    473 11.983401000   192.168.1.1           192.168.1.100         DNS      238    Standard query response 0xd686  A 104.16.117.182 A 104.16.118.182 A 104.16.116.182 A 104.16.119.182 A 104.16.115.182
+    474 12.102359000   192.168.1.100         198.252.206.17        HTTP     681    [TCP Retransmission] GET /j/p.js?d=hireme&tags=linux%3Bshell&lw=1000&bw=1855 HTTP/1.1 
+    475 12.110347000   104.16.103.204        192.168.1.100         TCP      1392   [TCP Retransmission] http > 46938 [PSH, ACK] Seq=8161 Ack=583 Win=30720 Len=1338[Reassembly error, protocol TCP: New fragment overlaps old data (retransmission?)]
+    476 12.110384000   192.168.1.100         104.16.103.204        TCP      66     [TCP Dup ACK 452#1] 46938 > http [ACK] Seq=583 Ack=9499 Win=49536 Len=0 SLE=8161 SRE=9499
+    477 12.296823000   104.16.103.204        192.168.1.100         TCP      66     [TCP Dup ACK 470#1] http > 46933 [ACK] Seq=7775 Ack=2294 Win=34816 Len=0 SLE=1708 SRE=2294
+    478 12.317216000   198.252.206.17        192.168.1.100         TCP      1414   [TCP segment of a reassembled PDU]
+    479 12.317242000   192.168.1.100         198.252.206.17        TCP      66     35268 > http [ACK] Seq=616 Ack=1349 Win=32128 Len=0 TSval=2383348 TSecr=1114446898
+    480 12.317543000   198.252.206.17        192.168.1.100         HTTP     809    HTTP/1.1 200 OK  (application/javascript)
+    481 12.317554000   192.168.1.100         198.252.206.17        TCP      66     35268 > http [ACK] Seq=616 Ack=2092 Win=34816 Len=0 TSval=2383348 TSecr=1114446898
+    482 12.323096000   192.168.1.100         104.16.103.204        HTTP     634    GET /clc/styles/jobs.min.css?v=bfa419715050 HTTP/1.1 
+    483 12.336049000   192.168.1.100         198.252.206.17        HTTP     771    GET /j/i.gif?an=Y2Vi4O-78n3zu0seDCDAxMzAzMrEwMTAzgjkcYCF1p9mYriS5BCbvWeXPRNYkpGLgZEBhzCnECNIhouJOc-gsWa7nptelwMA&pt=1173 HTTP/1.1 
+    484 12.370032000   203.190.124.26        192.168.1.100         TCP      54     http > 48051 [ACK] Seq=289 Ack=1234 Win=17152 Len=0
+    485 12.515448000   173.194.117.216       192.168.1.100         TLSv1.2  129    Application Data
+    486 12.515540000   173.194.117.216       192.168.1.100         TCP      66     https > 44669 [FIN, ACK] Seq=64 Ack=1 Win=360 Len=0 TSval=420273433 TSecr=2323406
+    487 12.515631000   192.168.1.100         173.194.117.216       TCP      66     44669 > https [FIN, ACK] Seq=1 Ack=65 Win=245 Len=0 TSval=2383398 TSecr=420273433
+    488 12.600497000   104.16.103.204        192.168.1.100         TCP      54     http > 46933 [ACK] Seq=7775 Ack=2874 Win=35840 Len=0
+    489 12.600704000   104.16.103.204        192.168.1.100         HTTP     397    HTTP/1.1 304 Not Modified 
+    490 12.600722000   192.168.1.100         104.16.103.204        TCP      54     46933 > http [ACK] Seq=2874 Ack=8118 Win=52864 Len=0
+    491 12.651950000   198.252.206.17        192.168.1.100         TCP      78     [TCP Dup ACK 480#1] http > 35268 [ACK] Seq=2092 Ack=616 Win=15872 Len=0 TSval=1114447250 TSecr=2383295 SLE=1 SRE=616
+    492 12.917481000   173.194.117.216       192.168.1.100         TCP      66     https > 44669 [ACK] Seq=65 Ack=2 Win=360 Len=0 TSval=420273829 TSecr=2383398
+    493 12.972051000   198.252.206.17        192.168.1.100         TCP      66     http > 35268 [ACK] Seq=2092 Ack=1321 Win=17408 Len=0 TSval=1114447565 TSecr=2383353
+    494 12.978776000   198.252.206.17        192.168.1.100         HTTP     330    HTTP/1.1 200 OK  (GIF89a) (GIF89a) (image/gif)
+    495 13.018336000   192.168.1.100         198.252.206.17        TCP      66     35268 > http [ACK] Seq=1321 Ack=2356 Win=37504 Len=0 TSval=2383524 TSecr=1114447568
+    496 13.022137000   192.168.1.100         104.16.103.204        HTTP     556    GET /stackoverflow/img/favicon.ico?v=4f32ecc8f43d HTTP/1.1 
+    497 13.205428000   216.58.196.110        192.168.1.100         TLSv1.2  129    Application Data
+    498 13.205580000   216.58.196.110        192.168.1.100         TCP      66     https > 37013 [FIN, ACK] Seq=64 Ack=1 Win=358 Len=0 TSval=415681783 TSecr=2323585
+    499 13.205613000   192.168.1.100         216.58.196.110        TCP      66     37013 > https [FIN, ACK] Seq=1 Ack=65 Win=360 Len=0 TSval=2383570 TSecr=415681783
+    500 13.258705000   192.168.1.1           192.168.1.100         DNS      243    Standard query response 0xb629  A 104.16.115.182 A 104.16.116.182 A 104.16.118.182 A 104.16.119.182 A 104.16.117.182
+    501 13.265224000   216.58.196.99         192.168.1.100         TLSv1.2  129    Application Data
+    502 13.265426000   192.168.1.100         216.58.196.99         TCP      66     47420 > https [FIN, ACK] Seq=1 Ack=64 Win=360 Len=0 TSval=2383585 TSecr=415673619
+    503 13.271958000   216.58.196.99         192.168.1.100         TCP      66     https > 47420 [FIN, ACK] Seq=64 Ack=1 Win=358 Len=0 TSval=415673619 TSecr=2323629
+    504 13.271977000   192.168.1.100         216.58.196.99         TCP      66     47420 > https [ACK] Seq=2 Ack=65 Win=360 Len=0 TSval=2383587 TSecr=415673619
+    505 13.478684000   216.58.196.110        192.168.1.100         TCP      66     [TCP Retransmission] https > 37013 [FIN, ACK] Seq=64 Ack=1 Win=358 Len=0 TSval=415682055 TSecr=2323585
+    506 13.478710000   192.168.1.100         216.58.196.110        TCP      78     [TCP Dup ACK 499#1] 37013 > https [ACK] Seq=2 Ack=65 Win=360 Len=0 TSval=2383639 TSecr=415682055 SLE=64 SRE=65
+    507 13.602370000   192.168.1.100         104.16.103.204        HTTP     556    [TCP Retransmission] GET /stackoverflow/img/favicon.ico?v=4f32ecc8f43d HTTP/1.1 
+    508 13.608819000   216.58.196.99         192.168.1.100         TCP      66     [TCP Retransmission] https > 47420 [FIN, ACK] Seq=64 Ack=1 Win=358 Len=0 TSval=415673969 TSecr=2323629
+    509 13.608861000   192.168.1.100         216.58.196.99         TCP      78     [TCP Dup ACK 504#1] 47420 > https [ACK] Seq=2 Ack=65 Win=360 Len=0 TSval=2383671 TSecr=415673969 SLE=64 SRE=65
+    510 13.709333000   fe80::fedd:55ff:fe0b:8ed5 ff02::1               ICMPv6   86     Router Advertisement from fc:dd:55:0b:8e:d5
+    511 13.720784000   104.16.103.204        192.168.1.100         HTTP     1323   HTTP/1.1 200 OK  (image/x-icon)
+    512 13.720809000   192.168.1.100         104.16.103.204        TCP      54     46933 > http [ACK] Seq=3376 Ack=9387 Win=55552 Len=0
+    513 13.745400000   216.58.196.110        192.168.1.100         TCP      66     https > 37013 [ACK] Seq=65 Ack=2 Win=358 Len=0 TSval=415682318 TSecr=2383570
+    514 13.881090000   216.58.196.99         192.168.1.100         TCP      66     https > 47420 [ACK] Seq=65 Ack=2 Win=358 Len=0 TSval=415674222 TSecr=2383585
+    515 13.985367000   104.16.103.204        192.168.1.100         TCP      66     [TCP Dup ACK 511#1] http > 46933 [ACK] Seq=9387 Ack=3376 Win=36864 Len=0 SLE=2874 SRE=3376
+    516 15.498376000   192.168.1.100         216.58.196.110        TCP      66     37065 > https [ACK] Seq=1 Ack=1 Win=237 Len=0 TSval=2384144 TSecr=415633115
+    517 15.562379000   192.168.1.100         216.58.196.110        TCP      66     37074 > https [ACK] Seq=1 Ack=1 Win=237 Len=0 TSval=2384160 TSecr=415633167
+    518 15.607049000   216.58.196.110        192.168.1.100         TCP      66     [TCP ACKed unseen segment] https > 37065 [ACK] Seq=1 Ack=2 Win=341 Len=0 TSval=415678217 TSecr=2350232
+    519 15.688936000   216.58.196.110        192.168.1.100         TCP      66     [TCP ACKed unseen segment] https > 37074 [ACK] Seq=1 Ack=2 Win=350 Len=0 TSval=415678288 TSecr=2350352
+    520 15.690354000   192.168.1.100         216.58.196.110        TCP      66     37070 > https [ACK] Seq=1 Ack=1 Win=237 Len=0 TSval=2384192 TSecr=415633261
+    521 15.823596000   216.58.196.110        192.168.1.100         TCP      66     [TCP ACKed unseen segment] https > 37070 [ACK] Seq=1 Ack=2 Win=350 Len=0 TSval=415678418 TSecr=2350342
+    522 17.370410000   192.168.1.100         203.190.124.12        TCP      54     [TCP Retransmission] 41661 > http [FIN, ACK] Seq=1 Ack=1 Win=229 Len=0
+    523 17.483661000   74.125.68.157         192.168.1.100         TCP      66     https > 50169 [FIN, ACK] Seq=1 Ack=1 Win=350 Len=0 TSval=3329349355 TSecr=2324642
+    524 17.483693000   192.168.1.100         74.125.68.157         TCP      78     50169 > https [ACK] Seq=1 Ack=4294967234 Win=237 Len=0 TSval=2384640 TSecr=3329306415 SLE=1 SRE=2
+    525 17.483845000   74.125.68.157         192.168.1.100         TLSv1.2  129    [TCP Out-Of-Order] Application Data
+    526 17.483865000   192.168.1.100         74.125.68.157         TCP      66     50169 > https [ACK] Seq=1 Ack=2 Win=237 Len=0 TSval=2384640 TSecr=3329349355
+    527 17.484041000   192.168.1.100         74.125.68.157         TCP      66     50169 > https [FIN, ACK] Seq=1 Ack=2 Win=237 Len=0 TSval=2384640 TSecr=3329349355
+    528 17.633743000   74.125.68.157         192.168.1.100         TCP      66     https > 50169 [ACK] Seq=2 Ack=2 Win=350 Len=0 TSval=3329349510 TSecr=2384640
+    529 17.967051000   198.252.206.17        192.168.1.100         TCP      66     http > 35268 [FIN, ACK] Seq=2356 Ack=1321 Win=17408 Len=0 TSval=1114452568 TSecr=2383524
+    530 18.006409000   192.168.1.100         198.252.206.17        TCP      66     35268 > http [ACK] Seq=1321 Ack=2357 Win=37504 Len=0 TSval=2384771 TSecr=1114452568
+    531 18.710478000   fe80::fedd:55ff:fe0b:8ed5 ff02::1               ICMPv6   86     Router Advertisement from fc:dd:55:0b:8e:d5
+    532 19.438405000   192.168.1.100         74.125.200.188        TCP      66     54541 > hpvroom [ACK] Seq=1 Ack=1 Win=245 Len=0 TSval=2385129 TSecr=402085506
+    533 19.573181000   74.125.200.188        192.168.1.100         TCP      66     [TCP ACKed unseen segment] hpvroom > 54541 [ACK] Seq=1 Ack=2 Win=358 Len=0 TSval=402130632 TSecr=2323629
+    534 19.730406000   192.168.1.100         216.58.196.99         TCP      66     47408 > https [ACK] Seq=1 Ack=1 Win=381 Len=0 TSval=2385202 TSecr=415646757
+    535 19.835570000   216.58.196.99         192.168.1.100         TCP      66     [TCP ACKed unseen segment] https > 47408 [ACK] Seq=1 Ack=2 Win=362 Len=0 TSval=415691856 TSecr=2339992

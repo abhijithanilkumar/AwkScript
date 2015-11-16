@@ -14,5 +14,6 @@ set output osent
 set xlabel "Time (sec)"
 set ylabel "No. of Packets Sent"
 set title "Simulation Time Vs No. of Packets"
+set key outside
 
-plot isent every ::4 with linespoints ls 1
+plot for [i=2:n+1] isent u 1:i with lp title columnheader(i)

@@ -14,5 +14,6 @@ set output orecv
 set xlabel "Time (sec)"
 set ylabel "No. of Packets Received"
 set title "Simulation Time Vs No. of Packets"
+set key outside
 
-plot irecv every ::4 with linespoints ls 1
+plot for [i=2:n+1] irecv u 1:i with lp title columnheader(i)

@@ -1,5 +1,6 @@
 BEGIN {
     domain = "./Results/Domains.txt"
+    count = 0
 }
 
 
@@ -21,9 +22,11 @@ BEGIN {
 }
 
 END{
-
     for (var in domreq)
-        printf "%75s   %15s\n", var, domreq[var] > domain
+    {
+        printf "%d %s %s\n", count, domreq[var], var > domain
+        count++
+    }
 }
 
 
