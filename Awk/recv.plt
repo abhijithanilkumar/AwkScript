@@ -7,8 +7,8 @@ text = "'Verdana,10'"
 
 set xtics 0.5
 
-irecv = "./Results/Received.txt"
-orecv = "./Results/Received.png"
+irecv = "./Awk/Results/Received.txt"
+orecv = "./Awk/Results/Received.png"
 
 set output orecv
 set xlabel "Time (sec)"

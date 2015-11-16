@@ -1,5 +1,5 @@
 BEGIN {
-    domain = "./Results/Domains.txt"
+    domain = "./Awk/Results/Domains.txt"
     count = 0
 }
 

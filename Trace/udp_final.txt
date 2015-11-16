@@ -1,0 +1,166 @@
+No.     Time           Source                Destination           Protocol Length Info
+      7 18.798981000   192.168.1.100         192.168.1.1           DNS      76     Standard query 0x4f49  A www.google.co.in
+      8 18.799183000   192.168.1.100         192.168.1.1           DNS      75     Standard query 0xea73  A apis.google.com
+      9 18.799388000   192.168.1.100         192.168.1.1           DNS      75     Standard query 0x387c  A csi.gstatic.com
+     10 18.799426000   192.168.1.100         192.168.1.1           DNS      76     Standard query 0xadd6  A daisy.ubuntu.com
+     11 18.799459000   192.168.1.100         192.168.1.1           DNS      76     Standard query 0x39b0  AAAA daisy.ubuntu.com
+     12 18.799629000   192.168.1.100         192.168.1.1           DNS      132    Standard query 0xbce0  A p5-5nxnidcxbvmkg-wc7jlcfqgozhk5sn-640637-i1-v6exp3-v4.metric.gstatic.com
+     13 18.799789000   192.168.1.100         192.168.1.1           DNS      132    Standard query 0x0d8c  A p5-5nxnidcxbvmkg-wc7jlcfqgozhk5sn-640637-i2-v6exp3-ds.metric.gstatic.com
+     14 18.799913000   192.168.1.100         192.168.1.1           DNS      132    Standard query 0x1e1e  A p5-m222hq4yltxck-oeou4xyoahye6xze-490499-i1-v6exp3-v4.metric.gstatic.com
+     15 18.860552000   192.168.1.1           192.168.1.100         DNS      204    Standard query response 0x4f49  A 216.58.196.99
+     16 18.860765000   192.168.1.100         192.168.1.1           DNS      132    Standard query 0x989f  A p5-m222hq4yltxck-oeou4xyoahye6xze-490499-i2-v6exp3-ds.metric.gstatic.com
+     17 18.861782000   192.168.1.100         216.58.196.99         UDP      1392   Source port: 58560  Destination port: https
+     18 18.868711000   192.168.1.1           192.168.1.100         DNS      248    Standard query response 0xea73  CNAME plus.l.google.com A 216.58.196.110
+     19 18.868980000   192.168.1.100         192.168.1.1           DNS      75     Standard query 0x4ed8  A ssl.gstatic.com
+     20 18.870165000   192.168.1.100         216.58.196.110        UDP      1392   Source port: 44199  Destination port: https
+     21 18.882429000   192.168.1.1           192.168.1.100         DNS      250    Standard query response 0x387c  A 64.233.161.120 A 64.233.161.94
+     22 18.882670000   192.168.1.1           192.168.1.100         DNS      258    Standard query response 0xadd6  A 91.189.92.55 A 91.189.92.57
+     23 18.882799000   192.168.1.100         192.168.1.1           DNS      74     Standard query 0x8df5  A www.google.com
+     24 18.882843000   192.168.1.1           192.168.1.100         DNS      137    Standard query response 0x39b0 
+     25 18.885120000   192.168.1.100         64.233.161.120        UDP      1392   Source port: 43165  Destination port: https
+     26 18.955632000   192.168.1.1           192.168.1.100         DNS      291    Standard query response 0xbce0  A 216.58.196.110
+     27 18.956465000   192.168.1.100         192.168.1.1           DNS      75     Standard query 0x0303  A www.gstatic.com
+     28 18.957501000   192.168.1.100         216.58.196.110        UDP      1392   Source port: 37783  Destination port: https
+     29 18.958575000   192.168.1.100         216.58.196.99         UDP      1368   Source port: 58560  Destination port: https
+     30 18.965109000   192.168.1.100         216.58.196.99         UDP      165    Source port: 58560  Destination port: https
+     31 18.983913000   192.168.1.1           192.168.1.100         DNS      291    Standard query response 0x1e1e  A 216.58.196.110
+     32 18.984069000   192.168.1.1           192.168.1.100         DNS      291    Standard query response 0x0d8c  A 216.58.196.99
+     33 18.984255000   192.168.1.1           192.168.1.100         DNS      234    Standard query response 0x4ed8  A 216.58.196.99
+     34 18.986110000   192.168.1.100         216.58.196.99         UDP      1392   Source port: 40855  Destination port: https
+     35 18.990502000   192.168.1.1           192.168.1.100         DNS      291    Standard query response 0x989f  A 216.58.196.99
+     36 18.997711000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     37 18.998448000   192.168.1.100         216.58.196.99         UDP      79     Source port: 58560  Destination port: https
+     38 19.030508000   192.168.1.1           192.168.1.100         DNS      226    Standard query response 0x8df5  A 216.58.196.100
+     39 19.032573000   192.168.1.100         216.58.196.100        UDP      1392   Source port: 51194  Destination port: https
+     40 19.095712000   216.58.196.110        192.168.1.100         UDP      1392   Source port: https  Destination port: 44199
+     41 19.095988000   192.168.1.1           192.168.1.100         DNS      234    Standard query response 0x0303  A 216.58.196.99
+     42 19.096302000   192.168.1.100         216.58.196.110        UDP      79     Source port: 44199  Destination port: https
+     43 19.102584000   216.58.196.110        192.168.1.100         UDP      1392   Source port: https  Destination port: 37783
+     44 19.103482000   192.168.1.100         216.58.196.110        UDP      79     Source port: 37783  Destination port: https
+     45 19.163962000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 40855
+     46 19.164074000   216.58.196.99         192.168.1.100         UDP      74     Source port: https  Destination port: 58560
+     47 19.164935000   192.168.1.100         216.58.196.99         UDP      79     Source port: 40855  Destination port: https
+     48 19.202290000   192.168.1.100         216.58.196.99         UDP      223    Source port: 58560  Destination port: https
+     49 19.203302000   192.168.1.100         216.58.196.99         UDP      157    Source port: 58560  Destination port: https
+     50 19.207987000   216.58.196.100        192.168.1.100         UDP      1392   Source port: https  Destination port: 51194
+     51 19.208198000   216.58.196.99         192.168.1.100         UDP      262    Source port: https  Destination port: 58560
+     52 19.208491000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     53 19.208644000   192.168.1.100         216.58.196.100        UDP      79     Source port: 51194  Destination port: https
+     54 19.208780000   192.168.1.100         216.58.196.99         UDP      85     Source port: 58560  Destination port: https
+     55 19.227299000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     56 19.232658000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     57 19.232930000   192.168.1.100         216.58.196.99         UDP      82     Source port: 58560  Destination port: https
+     58 19.296350000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     59 19.296527000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     60 19.296629000   192.168.1.100         216.58.196.99         UDP      82     Source port: 58560  Destination port: https
+     61 19.296697000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     62 19.296883000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     63 19.297048000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     64 19.297220000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     65 19.297245000   192.168.1.100         216.58.196.99         UDP      82     Source port: 58560  Destination port: https
+     66 19.297315000   192.168.1.100         216.58.196.99         UDP      82     Source port: 58560  Destination port: https
+     67 19.302348000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     68 19.302612000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     69 19.302999000   192.168.1.100         216.58.196.99         UDP      82     Source port: 58560  Destination port: https
+     70 19.322751000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     71 19.323012000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     72 19.323176000   192.168.1.100         216.58.196.99         UDP      82     Source port: 58560  Destination port: https
+     73 19.332878000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     74 19.339392000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     75 19.339602000   192.168.1.100         216.58.196.99         UDP      82     Source port: 58560  Destination port: https
+     76 19.352831000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     77 19.353052000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     78 19.353190000   192.168.1.100         216.58.196.99         UDP      82     Source port: 58560  Destination port: https
+     79 19.359818000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     80 19.366203000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     81 19.366269000   192.168.1.100         216.58.196.99         UDP      82     Source port: 58560  Destination port: https
+     82 19.372654000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     83 19.386697000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     84 19.386786000   192.168.1.100         216.58.196.99         UDP      82     Source port: 58560  Destination port: https
+     85 19.399820000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     86 19.400263000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     87 19.400326000   192.168.1.100         216.58.196.99         UDP      82     Source port: 58560  Destination port: https
+     88 19.406697000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     89 19.406942000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     90 19.407019000   192.168.1.100         216.58.196.99         UDP      82     Source port: 58560  Destination port: https
+     91 19.426105000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     92 19.432789000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     93 19.432911000   192.168.1.100         216.58.196.99         UDP      82     Source port: 58560  Destination port: https
+     94 19.490111000   192.168.1.100         216.58.196.99         UDP      223    Source port: 58560  Destination port: https
+     95 19.514405000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     96 19.514677000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     97 19.514868000   192.168.1.100         216.58.196.99         UDP      82     Source port: 58560  Destination port: https
+     98 19.560642000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+     99 19.567622000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+    100 19.567849000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+    101 19.567895000   192.168.1.100         216.58.196.99         UDP      82     Source port: 58560  Destination port: https
+    102 19.593425000   192.168.1.100         216.58.196.99         UDP      79     Source port: 58560  Destination port: https
+    103 19.630553000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+    104 19.644126000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+    105 19.644411000   192.168.1.100         216.58.196.99         UDP      82     Source port: 58560  Destination port: https
+    106 19.657638000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+    107 19.657684000   216.58.196.99         192.168.1.100         UDP      77     Source port: https  Destination port: 58560
+    108 19.677515000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+    109 19.677762000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+    110 19.677808000   192.168.1.100         216.58.196.99         UDP      85     Source port: 58560  Destination port: https
+    111 19.703220000   192.168.1.100         216.58.196.99         UDP      79     Source port: 58560  Destination port: https
+    112 19.711067000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+    113 19.711222000   216.58.196.99         192.168.1.100         UDP      1392   Source port: https  Destination port: 58560
+    114 19.711363000   192.168.1.100         216.58.196.99         UDP      82     Source port: 58560  Destination port: https
+    115 19.717114000   216.58.196.99         192.168.1.100         UDP      1268   Source port: https  Destination port: 58560
+    116 19.717236000   216.58.196.99         192.168.1.100         UDP      83     Source port: https  Destination port: 58560
+    117 19.717523000   192.168.1.100         216.58.196.99         UDP      82     Source port: 58560  Destination port: https
+    118 19.737181000   216.58.196.99         192.168.1.100         UDP      525    Source port: https  Destination port: 58560
+    119 19.763180000   192.168.1.100         216.58.196.99         UDP      79     Source port: 58560  Destination port: https
+    120 19.785866000   192.168.1.100         216.58.196.99         UDP      825    Source port: 58560  Destination port: https
+    121 19.800871000   192.168.1.100         192.168.1.1           DNS      76     Standard query 0x10a0  A daisy.ubuntu.com
+    122 19.800900000   192.168.1.100         192.168.1.1           DNS      76     Standard query 0x979f  AAAA daisy.ubuntu.com
+    123 19.844810000   64.233.161.120        192.168.1.100         UDP      1392   Source port: https  Destination port: 43165
+    124 19.845401000   64.233.161.120        192.168.1.100         UDP      79     Source port: https  Destination port: 43165
+    125 19.845524000   216.58.196.99         192.168.1.100         UDP      116    Source port: https  Destination port: 58560
+    126 19.845716000   64.233.161.120        192.168.1.100         UDP      1392   Source port: https  Destination port: 43165
+    127 19.846199000   192.168.1.100         64.233.161.120        UDP      1392   Source port: 43165  Destination port: https
+    128 19.846264000   192.168.1.100         64.233.161.120        UDP      85     Source port: 43165  Destination port: https
+    129 19.907459000   192.168.1.1           192.168.1.100         DNS      258    Standard query response 0x10a0  A 91.189.92.57 A 91.189.92.55
+    130 19.914108000   192.168.1.1           192.168.1.100         DNS      137    Standard query response 0x979f 
+    131 19.944078000   64.233.161.120        192.168.1.100         UDP      1392   Source port: https  Destination port: 43165
+    132 19.944116000   216.58.196.99         192.168.1.100         UDP      95     Source port: https  Destination port: 58560
+    133 19.969618000   192.168.1.100         64.233.161.120        UDP      79     Source port: 43165  Destination port: https
+    134 19.985719000   216.58.196.99         192.168.1.100         UDP      83     Source port: https  Destination port: 58560
+    135 19.992124000   192.168.1.100         192.168.1.1           DNS      76     Standard query 0xde5d  A www.facebook.com
+    136 20.011262000   192.168.1.100         216.58.196.99         UDP      85     Source port: 58560  Destination port: https
+    138 20.128036000   192.168.1.1           192.168.1.100         DNS      212    Standard query response 0xde5d  CNAME star-mini.c10r.facebook.com A 31.13.79.220
+    143 20.359334000   64.233.161.120        192.168.1.100         UDP      1392   Source port: https  Destination port: 43165
+    144 20.359724000   192.168.1.100         64.233.161.120        UDP      79     Source port: 43165  Destination port: https
+    145 20.368941000   64.233.161.120        192.168.1.100         UDP      74     Source port: https  Destination port: 43165
+    162 20.823366000   192.168.1.100         192.168.1.1           DNS      83     Standard query 0x819e  A z-1-static.xx.fbcdn.net
+    163 20.901309000   192.168.1.1           192.168.1.100         DNS      229    Standard query response 0x819e  CNAME z-1-scontent.xx.fbcdn.net A 31.13.79.208
+    168 21.013726000   192.168.1.100         216.58.196.99         UDP      142    Source port: 58560  Destination port: https
+    180 21.146237000   216.58.196.99         192.168.1.100         UDP      74     Source port: https  Destination port: 58560
+    181 21.146478000   216.58.196.99         192.168.1.100         UDP      1351   Source port: https  Destination port: 58560
+    182 21.172203000   192.168.1.100         216.58.196.99         UDP      82     Source port: 58560  Destination port: https
+    197 21.505962000   192.168.1.100         192.168.1.1           DNS      76     Standard query 0x3146  A web.facebook.com
+    198 21.574705000   192.168.1.1           192.168.1.100         DNS      224    Standard query response 0x3146  CNAME z-1.facebook.com CNAME z-1.c10r.facebook.com A 31.13.79.208
+    282 23.147331000   192.168.1.100         192.168.1.1           DNS      85     Standard query 0xe336  A z-1-scontent.xx.fbcdn.net
+    283 23.209637000   192.168.1.1           192.168.1.100         DNS      204    Standard query response 0xe336  A 31.13.79.208
+    287 23.668912000   192.168.1.100         192.168.1.1           DNS      73     Standard query 0xe3d4  A julialang.org
+    370 24.284285000   192.168.1.1           192.168.1.100         DNS      304    Standard query response 0xe3d4  CNAME julialang.github.io CNAME github.map.fastly.net A 103.245.222.133
+    374 24.345920000   192.168.1.100         192.168.1.1           DNS      94     Standard query 0x4995  A z-1-scontent.fmaa1-2.fna.fbcdn.net
+    432 24.758930000   192.168.1.1           192.168.1.100         DNS      213    Standard query response 0x4995  A 157.240.190.104
+   1224 29.799322000   192.168.1.100         192.168.1.1           DNS      79     Standard query 0x76c0  A clients4.google.com
+   1236 29.884905000   192.168.1.1           192.168.1.100         DNS      255    Standard query response 0x76c0  CNAME clients.l.google.com A 216.58.196.110
+   1238 29.888964000   192.168.1.100         216.58.196.110        UDP      1392   Source port: 53688  Destination port: https
+   1266 30.076449000   216.58.196.110        192.168.1.100         UDP      1392   Source port: https  Destination port: 53688
+   1270 30.077059000   192.168.1.100         216.58.196.110        UDP      79     Source port: 53688  Destination port: https
+   1271 30.077189000   192.168.1.100         216.58.196.110        UDP      392    Source port: 53688  Destination port: https
+   1272 30.077223000   192.168.1.100         216.58.196.110        UDP      1392   Source port: 53688  Destination port: https
+   1273 30.077241000   192.168.1.100         216.58.196.110        UDP      903    Source port: 53688  Destination port: https
+   1310 30.351490000   216.58.196.110        192.168.1.100         UDP      74     Source port: https  Destination port: 53688
+   1311 30.351611000   216.58.196.110        192.168.1.100         UDP      74     Source port: https  Destination port: 53688
+   1333 30.503228000   216.58.196.110        192.168.1.100         UDP      368    Source port: https  Destination port: 53688
+   1334 30.509648000   216.58.196.110        192.168.1.100         UDP      799    Source port: https  Destination port: 53688
+   1335 30.509739000   192.168.1.100         216.58.196.110        UDP      88     Source port: 53688  Destination port: https
+   1336 30.509747000   216.58.196.110        192.168.1.100         UDP      61     Source port: https  Destination port: 53688
+   1337 30.535031000   192.168.1.100         216.58.196.110        UDP      79     Source port: 53688  Destination port: https
+   1911 35.705652000   192.168.1.100         192.168.1.1           DNS      85     Standard query 0x19d7  A z-1-external.xx.fbcdn.net
+   2034 36.613543000   192.168.1.1           192.168.1.100         DNS      231    Standard query response 0x19d7  CNAME z-1-scontent.xx.fbcdn.net A 31.13.79.208

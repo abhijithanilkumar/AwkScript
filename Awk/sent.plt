@@ -5,8 +5,8 @@ oext = ".png"
 
 text = "'Verdana,10'"
 
-isent = "./Results/Sent.txt"
-osent = "./Results/Sent.png"
+isent = "./Awk/Results/Sent.txt"
+osent = "./Awk/Results/Sent.png"
 
 set xtics 0.5
 
