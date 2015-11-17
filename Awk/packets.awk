@@ -5,24 +5,27 @@ BEGIN{
     interval = 0.25
     sent = "./Awk/Results/Sent.txt"
     recv = "./Awk/Results/Received.txt"
-    client="192.168.1.100"
-    tend = 19
+    print file_name_1
+    print file_name_2
+    print file_name_3
+    #client="192.168.1.100"
+    #tend = 19
 }
 
 {
-    if(FILENAME == file_name_3)
+    if(FILENAME == file_name_1)
     {
         if($1 == "Time")
             tend = int($2)
-        if($2 == "Client")
-            cliend = $2
+        if($1 == "Client")
+            client = $2
     }
-    if(FILENAME == file_name_1)
+    if(FILENAME == file_name_2)
     {
         domain[$2] = int($1)
         value[int($1)] = $3 
     }
-    if(FILENAME == file_name_2)
+    if(FILENAME == file_name_3)
     {
 	    if($5 == "UDP" && $3 == client)
 	    {
@@ -77,6 +80,8 @@ END{
 	}
 
 	system("gnuplot -persist -e \"n="total_nodes"\" ./Awk/sent.plt")
+    system("julia ./Awk/sent.jl")
+    system("julia ./Awk/recv.jl")
 	system("gnuplot -persist -e \"n="total_nodes"\" ./Awk/recv.plt")
 }
 
