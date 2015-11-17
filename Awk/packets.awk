@@ -27,14 +27,36 @@ BEGIN{
     }
     if(FILENAME == file_name_3)
     {
+        total_nodes = 0
+        for (a in value)
+            total_nodes++
+        print total_nodes
 	    if($5 == "UDP" && $3 == client)
 	    {
-	        var = domain[$4] 
+            if($4 in domain)
+            {
+	            var = domain[$4] 
+            }
+            else
+            {
+                domain[$4] = total_nodes
+                value[total_nodes] = $4
+                var = domain[$4]
+            }
             sent_p[int($2/interval)+1,var]+=1
         }
 	    if($5 == "UDP" && $4 == client)
 	    {
-            var = domain[$3]
+            if($3 in domain)
+            {
+                var = domain[$3]
+            }
+            else
+            {
+                domain[$3] = total_nodes
+                value[total_nodes] = $3
+                var = domain[$3]
+            }
 		    recv_p[int($2/interval)+1,var]+=1
 	    }
     }
@@ -42,9 +64,6 @@ BEGIN{
 
 END{
     
-    total_nodes = 0
-    for (a in value)
-        total_nodes++
 
 	printf "  Time   " > sent
 	printf "  Time   " > recv
