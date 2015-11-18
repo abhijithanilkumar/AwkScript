@@ -1,3 +1,4 @@
+#Plot Graphs Using Gadfly
 using DataFrames, Gadfly, Colors
 data1 = readtable("./Awk/Results/Received.txt", separator=' ')
 n = size(keys(data1.colindex),1)-1
